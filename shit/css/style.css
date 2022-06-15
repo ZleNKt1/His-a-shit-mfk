@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    line-height: 1.6;
+    font-size: 15px;
+    color: rgb(248, 248, 248);
+
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    background: rgb(30, 167, 78);
+    width: 100%;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background: rgb(30, 167, 78);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav */
+.nav {
+    font-size: 15px;
+    
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+    color: aqua;
+}
+
+.content {
+    margin: 1219px;
+    position: absolute;
+}
+
+.foto1 {
+    background: url(../images/картинка.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    padding: 10%;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.nazv {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.txt {
+    position: absolute;
+    top: 150px;
+    font-size: #000000, 15px;
+
+}
